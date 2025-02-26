@@ -23,6 +23,8 @@ pub enum CustomError {
     #[msg("Invalid fee")]
     InvalidFee,
 
+    overamountFee,
+
     #[msg("Failed to add liquidity")]
     FailedToAddLiquidity,
 
